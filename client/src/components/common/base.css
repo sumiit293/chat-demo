@@ -1,0 +1,39 @@
+.parent{
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.sidebar {
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: grid;
+    place-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.color-grey {
+    color: grey;
+}
+
+.children{
+    width: 100%;
+    box-sizing: border-box;
+    border-left: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 50px 10px;
+    height: 100vh;
+
+}

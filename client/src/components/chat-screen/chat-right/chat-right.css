@@ -1,0 +1,192 @@
+.chat-right {
+    position: relative;
+    min-width: 300px;
+    height: 100%;
+    background: white;
+}
+
+.chat-right-header{
+    box-sizing: border-box;
+    height: 80px;
+    border-bottom: 1px solid lightgrey;
+    margin: 0px 10px;
+}
+
+.chat-right .bold-big{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon {
+    padding: 5px;
+    height: 40px;
+    margin: 5px;
+    width: 40px;
+    background: rgba(119, 136, 153, 0.158);
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.chat-right-header .icon {
+    background: rgba(119, 136, 153, 0.158);
+}
+
+.current-channel-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.current-channel-info p {
+    margin: 10px;
+    text-align: center;
+}
+
+.current-channel-info .title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.current-channel-info .sub-title{
+    font-size: 14px;
+    color: grey;
+}
+
+.image-part img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.stats div{
+   margin: 5px;
+    border-radius: 10px;
+    background: #b5d3d5;
+    padding: 10px;
+}
+
+.stats div div {
+    margin: 0px;
+    padding: 5px;
+}
+
+.stats .active {
+    color: green;
+}
+
+.stats .active .no {
+    color: darkgreen;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.file-info,.links-info{
+    position: relative;
+    font-size: 30px;
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+.file-info::before{
+ position: absolute;
+ content: 'All files';
+ font-size: 10px;
+ top: -5px;
+}
+
+.links-info::before{
+    content: 'All links';
+    position: absolute;
+    font-size: 10px;
+    width: 40px;
+    top: -5px;
+}
+
+.light-theme{
+    color: grey;
+    padding: 10px;
+}
+
+.icons-info .icon {
+    margin-left: 0px;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.details {
+   margin-bottom: 10px;
+   margin-left: 20px;
+}
+
+.details .title {
+    color: black;
+    font-weight: 500;
+}
+
+.details .subtitle {
+    font-size: 13px;
+}
+/* handling collapsed style */
+
+.collapsed {
+    margin-left: 5px ;
+}
+
+.collapsed .toggle-icon{
+    height: 80px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.collapsed .collapsed-icon {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.scroll-body{
+    height: calc(100% - 80px);
+    overflow-y: scroll;
+}
+
+.collapsed .collapsed-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.collapsed .icon-center{
+    display: grid;
+    place-items: center;
+}
+
+.dark-bg{
+    padding: 5px;
+    height: 40px;
+    margin: 5px;
+    width: 40px;
+    background-color: rgba(119, 136, 153, 0.158);
+    border-radius: 10px;
+}
+
+.collapsed .center{
+    text-align: center;
+}
+
+.collapsed .light-text{
+    color: grey;
+    font-size: 14px;
+}
+.display-none{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .chat-right{
+        min-width: 250px;
+    }
+}
