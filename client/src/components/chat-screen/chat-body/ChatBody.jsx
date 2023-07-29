@@ -14,7 +14,7 @@ const ChatBody = (props) => {
     const copyToClipBoard = (value)=>{
         navigator
         .clipboard
-        .writeText(`https://chat-tset.herokuapp.com/chat?channel_id=${value}`);
+        .writeText(`https://chat-demo-e7cr.onrender.com/chat?channel_id=${value}`);
         toast.info('Link copied to clipboard');
     }
 
