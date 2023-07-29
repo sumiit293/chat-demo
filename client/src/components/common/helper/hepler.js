@@ -2,7 +2,7 @@
 import Axios from "axios";
 
 export async function axiosRequest(method, url, data = null, token = null) {
-    let URL = `https://chat-tset.herokuapp.com${url}`;
+    let URL = `https://chat-demo-e7cr.onrender.com${url}`;
     return Axios({
         method: method,
         url: URL,
